@@ -1,0 +1,5 @@
+Reconstructed snapshot: merkle_root=0d3595cc4125d174..., root_sum=48 (must equal total validator count/stake)
+
+Tested: 196 real finalized rounds
+Recomputed view-0 leader matches real logged leader: 196/196
+Leader-selection proofs verified (u provably unique within derived interval): 196/196
