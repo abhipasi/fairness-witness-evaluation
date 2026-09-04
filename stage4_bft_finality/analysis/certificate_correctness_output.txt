@@ -1,0 +1,27 @@
+BFT Finality (Certificate Formation) Correctness — Raw Output
+Generated from S0-S7 production-scale event logs (master node view; a certificate is
+only recorded as "formed" by the node that constructed it, i.e. that round's leader —
+this is why counts are well below 200 per scenario, not a data-loss artifact).
+
+  Sc  PC_formed  PC_min  PC_max  FC_formed  FC_min  FC_max
+  S0         30      32      32         30      32      32
+  S1         32      32      32         32      32      32
+  S2         39      32      32         39      32      32
+  S3         28      32      32         28      32      32
+  S4         23      32      32         23      32      32
+  S5         27      32      32         27      32      32
+  S6         32      32      32         32      32      32
+  S7         25      32      32         25      32      32
+
+TOTALS: PC formed=236, FC formed=236
+PC certificates with <32 signers (quorum violation, should be 0): 0
+FC certificates with <32 signers (quorum violation, should be 0): 0
+
+Every single Prepare Certificate and Finality Certificate formed across all 8
+independently-verified scenarios contained exactly 32 signers (the deployment's BFT
+quorum threshold) -- never fewer. Combined with the analyzer's independent byte-level
+signature re-validation (reported separately per scenario: zero invalid votes ever
+counted toward any PC/TC/CC/FC, zero conflicting FCs across the entire campaign, and
+tens of thousands of individually re-verified TC signatures with zero invalid), this
+confirms certificate formation is structurally and cryptographically correct under
+every fault condition tested.

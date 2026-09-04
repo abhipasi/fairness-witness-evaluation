@@ -1,0 +1,38 @@
+Stage 2 Fairness Analysis — Raw Output
+Generated from the STAGE2_FAIRNESS_RUN3/S0 weighted-stake production run.
+
+Stake configuration: 6 "large" validators (ids 0,8,16,24,32,40; stake=500) + 42
+"regular" validators (all others; stake=100). Total stake = 7200. Expected selection
+probability: large 6.94% each, regular 1.39% each (ratio 5:1).
+
+Total finalized measured rounds analyzed: 495 (of 500 measured; a small number of
+leader_id records were not present in the master's own log, consistent with the
+shutdown-timing undercount pattern observed throughout this campaign -- does not
+affect the statistical validity of the test).
+
+Distinct leaders seen: 48/48 (every validator in the deployment was selected as
+leader at least once).
+
+Large validators (stake=500):
+  vid 0:  observed=24, expected=34.38
+  vid 8:  observed=31, expected=34.38
+  vid 16: observed=31, expected=34.38
+  vid 24: observed=36, expected=34.38
+  vid 32: observed=28, expected=34.38
+  vid 40: observed=30, expected=34.38
+  Large average observed: 30.00
+
+Regular validators (stake=100, n=42):
+  Average observed: 7.50, expected: 6.88
+  Min/max: 3/13
+
+Observed large:regular selection ratio: 4.00 (expected under exact stake-proportional
+selection: 5.00)
+
+Chi-square goodness-of-fit test:
+  Chi-square statistic: 43.560
+  Degrees of freedom: 47
+  P-value: 0.6158
+  Result: FAIL TO REJECT the null hypothesis. The observed leader-selection
+  distribution is statistically consistent with the configured stake-proportional
+  weighting.

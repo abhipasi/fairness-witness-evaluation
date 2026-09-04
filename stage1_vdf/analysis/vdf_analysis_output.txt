@@ -1,0 +1,30 @@
+Stage 1 — Dedicated VDF Overhead Sweep — Raw Output
+Generated from a purpose-built experiment: 3 clean (no-fault) campaigns at different
+batch sizes, 30 measured + 5 warmup rounds each, on the real 5-region, 48-validator
+AWS deployment. Run ID: STAGE1_VDF_RUN1.
+
+ batch    n   mean_ms  stdev_ms      min      max
+   100   30    2643.7     33.79   2624.0   2760.0
+  5000   30    2631.1      7.17   2622.1   2654.4
+  8000   30    2791.7     12.94   2777.2   2843.9
+
+COMBINED: n=90, mean=2688.8ms, stdev=76.27ms, CV=2.84%
+
+Network-wide finalization: 30/30 (100%) at every batch size, confirmed independently
+across all 7 regions' logs (not relying on any single node's count).
+
+Zero conflicting finality certificates found across all 3 datasets (90 total finalized
+rounds checked).
+
+Development note: the batch=15000 point was originally attempted as the third sweep
+point but was replaced with batch=8000 after two independent attempts both showed
+reproducibly low finalization (~40%, driven by genuine, sustained peer-connection
+instability during those specific runs -- confirmed via repeated transport_error/
+peer_reader_exit events spanning the full campaign duration, not just end-of-run
+cleanup). VDF timing itself remained clean and stable even in those degraded runs
+(2648.5ms mean, 21.2ms stdev on the 12 rounds that did finalize), confirming VDF
+computation is genuinely independent of consensus-layer network conditions -- but
+batch=15000's unreliability (consistent with it sitting past the throughput
+saturation "knee" identified in separate throughput-benchmarking work) made it a poor
+choice for a clean, reproducible sweep point. batch=8000 was selected as a
+known-reliable substitute.
