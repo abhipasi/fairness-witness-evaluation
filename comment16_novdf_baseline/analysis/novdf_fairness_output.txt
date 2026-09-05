@@ -1,0 +1,8 @@
+Total finalized measured rounds: 500
+Distinct leaders seen: 47/48
+Large validators avg observed: 34.50 (expected 34.72)
+Regular validators avg observed: 6.98 (expected 6.94)
+Observed large:regular ratio: 4.95 (expected 5.00)
+
+Chi-square: 39.021, df=47, p=0.7896
+Result: consistent with stake-proportional selection
