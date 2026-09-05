@@ -1,0 +1,5 @@
+Measuring across 29 real rounds where the node was genuinely leader
+
+LeaderOnlyWitness:    807 bytes (identical across all 29 rounds: True)
+FinalityCertificate:  2218 bytes (32 signers, identical: True)
+CompleteWitness:      3033 bytes (identical: True)

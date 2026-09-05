@@ -12,6 +12,7 @@ the results, with narrative text, caveats, and provenance already prepared.
 | 3 — Byzantine security testing | Security Evaluation | 🟢 Complete | [stage3_byzantine_security/MANUSCRIPT_SUMMARY.md](stage3_byzantine_security/MANUSCRIPT_SUMMARY.md) |
 | 4 — BFT finality validation | Consensus Correctness | 🟢 Complete | [stage4_bft_finality/MANUSCRIPT_SUMMARY.md](stage4_bft_finality/MANUSCRIPT_SUMMARY.md) |
 | Extra — Light-client / authenticated stake verification | Consensus Correctness / Security | 🟢 Complete | [stage_lightclient/MANUSCRIPT_SUMMARY.md](stage_lightclient/MANUSCRIPT_SUMMARY.md) |
+| Extra — Witness size (real, measured) | Response to Reviewer (Comments 5, 6, 12) | 🟢 Complete | [witness_size_measurement/MANUSCRIPT_SUMMARY.md](witness_size_measurement/MANUSCRIPT_SUMMARY.md) |
 | 5 — View-change and recovery | Liveness Evaluation | ⬜ Not started | — |
 | 6 — Distributed deployment | System Implementation | ⬜ Not started | — |
 | 7 — AWS infrastructure validation | Experimental Setup | ⬜ Not started | — |
