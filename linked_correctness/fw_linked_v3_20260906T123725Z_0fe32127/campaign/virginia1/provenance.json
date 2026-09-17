@@ -1,0 +1,33 @@
+{
+  "plan_pin": "cd06d1a0030322354ec7acf303360cb10fe9f700bd421f6326ce663ddf518dd6",
+  "genesis": {
+    "version": 3,
+    "chain": "4157535f56335f3230323630393036543132333732355a5f3066653332313237",
+    "seed": "00d1e014c9926858b2462fd770c4246ca0e2b7ddd8c3e1b9f000170ddd23110e",
+    "snapshot": "1adb31e6d9c772fb5d4098e1f6a99769cf40cbf1b7546479504f156b9b5df9a5",
+    "T": 1000,
+    "f": 15,
+    "modulus": "62e3f76a7335e117dea1be5141a29dae6c1c095bfad4307a86d0b28d2db70aa4"
+  },
+  "index": 0,
+  "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+  "source_sha256": {
+    "code/linked.py": "d42625e3a1cb09f052a86eb4a7f0eb7fa861d08655d3ce1fb9aa689d0a70c87e",
+    "code/strict_witness.py": "aecc1116abbecb6739de84d9760c313317da1f8219cdd93c78f44449e32add13",
+    "code/production_vdf.py": "8412a65d72578965924d5ddb352ff0dda145dd8ddf6ff3c05047bc4e3d506868",
+    "code/stage8_deployment.py": "3d724371ff4d057a1ec2bb6a403f7e110bc8223daa8e3cd78ce80605487769ba",
+    "code/fairness_witness.py": "b13c95a6103cca5fe4390eb04b649d47198ac1c23e7a62fb0085a3d072d28499",
+    "code/view_change.py": "740e17ea1a224870b8a2fd0aba2e2b7ef0669c87eab6fb4e52cf6da927410f50",
+    "code/consensus_v2.py": "bcf28e3e49be14db063931deafd1ba1281d8ef9823a1b246547d5cd1d6134476",
+    "code/consensus_v3.py": "e5909cb864a7198d0ed44ec7d78778f977841ee865f7ef037fb4cf25ddf17991",
+    "code/stage8_transport.py": "eb6bb7f6bfcf4aba44a5f83e03521d663e782a8bc4b402137c9abdfe7313240c",
+    "code/leader_selection.py": "7c6e6267cf9c469aa18b1ef5e4d96220c9ae8b06db2ede2a67fbc99372b69bde",
+    "code/stage8v2_workload.py": "e9f5eb481d501c288e9de6de80d127e191c4307ce6da09e37f538e624fa5e5b0",
+    "code/admission.py": "6006dc57f77bea93e55c21bbcc28423f34490190d318c3c70be56281caa44249",
+    "code/benchmark.py": "079227e8a10691fbe3785e0a1c14fdc2896c605286113b8588b53f6f9a67a805",
+    "worker.py": "dd2846793120430a09a20e5ea7ac3e139bd0faadc931ca7652cd90ddef7a72f1",
+    "supervisor.py": "bffd6a55aaf74d6d4df3a7a9db436642a91af15cae49c8f2ee53893c58e93bd2",
+    "transport.py": "61e0f3ce5c2f8a030cc35248bedeb6650dc8c1def778c24154146c2ceae2327d",
+    "common.py": "c14906c29c6d2b17e982cbc29324d4350d782949ccda03252754eeb57f64d48b"
+  }
+}

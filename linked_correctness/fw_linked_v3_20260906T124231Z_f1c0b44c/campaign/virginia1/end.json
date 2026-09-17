@@ -1,0 +1,16 @@
+{
+  "state": "stopped",
+  "failed": false,
+  "exits": [
+    {
+      "pid": 36257,
+      "worker_pid": 36257,
+      "exit_code": 75
+    },
+    {
+      "pid": 37398,
+      "worker_pid": 37398,
+      "exit_code": 0
+    }
+  ]
+}

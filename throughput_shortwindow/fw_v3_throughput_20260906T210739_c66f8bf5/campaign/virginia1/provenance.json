@@ -1,0 +1,37 @@
+{
+  "plan_pin": "d857230f688055e2080374ab6752b84c4d9767bd9b1889caf7b4524333c6fe6d",
+  "index": 0,
+  "pid": 20298,
+  "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+  "core_freeze": {
+    "admission.py": "6006dc57f77bea93e55c21bbcc28423f34490190d318c3c70be56281caa44249",
+    "benchmark.py": "079227e8a10691fbe3785e0a1c14fdc2896c605286113b8588b53f6f9a67a805",
+    "consensus_v2.py": "bcf28e3e49be14db063931deafd1ba1281d8ef9823a1b246547d5cd1d6134476",
+    "consensus_v3.py": "e5909cb864a7198d0ed44ec7d78778f977841ee865f7ef037fb4cf25ddf17991",
+    "fairness_witness.py": "b13c95a6103cca5fe4390eb04b649d47198ac1c23e7a62fb0085a3d072d28499",
+    "leader_selection.py": "7c6e6267cf9c469aa18b1ef5e4d96220c9ae8b06db2ede2a67fbc99372b69bde",
+    "linked.py": "d42625e3a1cb09f052a86eb4a7f0eb7fa861d08655d3ce1fb9aa689d0a70c87e",
+    "production_vdf.py": "8412a65d72578965924d5ddb352ff0dda145dd8ddf6ff3c05047bc4e3d506868",
+    "stage8v2_workload.py": "e9f5eb481d501c288e9de6de80d127e191c4307ce6da09e37f538e624fa5e5b0",
+    "stage8_deployment.py": "3d724371ff4d057a1ec2bb6a403f7e110bc8223daa8e3cd78ce80605487769ba",
+    "stage8_transport.py": "eb6bb7f6bfcf4aba44a5f83e03521d663e782a8bc4b402137c9abdfe7313240c",
+    "strict_witness.py": "aecc1116abbecb6739de84d9760c313317da1f8219cdd93c78f44449e32add13",
+    "vdf_public_params.json": "d715c77339ef1f3bf443a1792846940e5d0ac4e55e2f379465278f4173339113",
+    "view_change.py": "740e17ea1a224870b8a2fd0aba2e2b7ef0669c87eab6fb4e52cf6da927410f50"
+  },
+  "local_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "adapter_sha256": {
+    "worker.py": "ee52dfb0b67f85fbf8c3a9ea9379514712823ee653803abd316cbe2825425ca4",
+    "plan.py": "dc209c858fa1ce220818e0926b0c6d04c08e738696387b59d51689161673e2d5",
+    "common.py": "c14906c29c6d2b17e982cbc29324d4350d782949ccda03252754eeb57f64d48b",
+    "transport.py": "61e0f3ce5c2f8a030cc35248bedeb6650dc8c1def778c24154146c2ceae2327d"
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "index": 0,
+  "hosts": [
+    {
+      "region": "virginia1",
+      "host": "44.209.159.143",
+      "port": 48048
+    },
+    {
+      "region": "virginia2",
+      "host": "54.208.123.243",
+      "port": 48048
+    },
+    {
+      "region": "virginia3",
+      "host": "3.224.15.167",
+      "port": 48048
+    },
+    {
+      "region": "ireland",
+      "host": "3.248.92.233",
+      "port": 48048
+    },
+    {
+      "region": "tokyo",
+      "host": "176.32.91.141",
+      "port": 48048
+    },
+    {
+      "region": "sydney",
+      "host": "3.24.112.44",
+      "port": 48048
+    },
+    {
+      "region": "mumbai",
+      "host": "65.1.6.102",
+      "port": 48048
+    }
+  ],
+  "plan": {
+    "version": 3,
+    "genesis": {
+      "version": 3,
+      "chain": "5450535f56335f3230323630393036543231303733395f6336366638626635",
+      "seed": "0547e4c602d75489c6296a43aec0b6d9272debe75c139357aebee570a577108c",
+      "snapshot": "1adb31e6d9c772fb5d4098e1f6a99769cf40cbf1b7546479504f156b9b5df9a5",
+      "T": 95000,
+      "f": 15,
+      "modulus": "62e3f76a7335e117dea1be5141a29dae6c1c095bfad4307a86d0b28d2db70aa4"
+    },
+    "snapshot": {
+      "domain_separator": "STAKE_SNAPSHOT_V1",
+      "n_validators": 48,
+      "total_stake": 48,
+      "commitment_sha256": "1adb31e6d9c772fb5d4098e1f6a99769cf40cbf1b7546479504f156b9b5df9a5",
+      "validators": [
+        {
+          "validator_id": 0,
+          "public_key_hex": "5d149fc1b874a5acab5d10e47127d61cc7fe28a9dba7002fd1e32601a79cb1b1",
+          "stake": 1,
+          "interval_start": 0,
+          "interval_end": 1
+        },
+        {
+          "validator_id": 1,
+          "public_key_hex": "2bd154ef882f237c174de8d1f5fc92edbe91e26a8179770b9986229e8defba49",
+          "stake": 1,
+          "interval_start": 1,
+          "interval_end": 2
+        },
+        {
+          "validator_id": 2,
+          "public_key_hex": "848e56c9f813eeaa5e502e230e27797a0973af19cc04d398978b126633e3ef80",
+          "stake": 1,
+          "interval_start": 2,
+          "interval_end": 3
+        },
+        {
+          "validator_id": 3,
+          "public_key_hex": "c20008b88fc5663da390aebc30ed9c442df06efa75d88cbce687955ebea85751",
+          "stake": 1,
+          "interval_start": 3,
+          "interval_end": 4
+        },
+        {
+          "validator_id": 4,
+          "public_key_hex": "48e0ca5fb6859cb5476873d68be3de11066d9ef0acebb2c6a086e654b2ac5ebb",
+          "stake": 1,
+          "interval_start": 4,
+          "interval_end": 5
+        },
+        {
+          "validator_id": 5,
+          "public_key_hex": "d79d25b506456bf792c209096fc132f3dee3becfd094cf1b82ed3f45d22dc56f",
+          "stake": 1,
+          "interval_start": 5,
+          "interval_end": 6
+        },
+        {
+          "validator_id": 6,
+          "public_key_hex": "e9f0e6ae686a6aac4f976ed9d6d42f4a73903816532f674e4f86360ca8428cff",
+          "stake": 1,
+          "interval_start": 6,
+          "interval_end": 7
+        },
+        {
+          "validator_id": 7,
+          "public_key_hex": "2926ca1e5e2dcd1654bd75644ddfd19eacb20e7ea8bb4e78c5571009fa30eefb",
+          "stake": 1,
+          "interval_start": 7,
+          "interval_end": 8
+        },
+        {
+          "validator_id": 8,
+          "public_key_hex": "6b76c03bc2145e0f421452655eb5f3c2fd6118be71e1d157aca6038e88527d8d",
+          "stake": 1,
+          "interval_start": 8,
+          "interval_end": 9
+        },
+        {
+          "validator_id": 9,
+          "public_key_hex": "bcb4aee59090b4c16c079d5f780f11213b1e33dc47210f115740d6b3b4d18ddf",
+          "stake": 1,
+          "interval_start": 9,
+          "interval_end": 10
+        },
+        {
+          "validator_id": 10,
+          "public_key_hex": "37649a0d90417a604bd69a5649c69dc9d21f3f9108e11ab376508cd0176aa5b5",
+          "stake": 1,
+          "interval_start": 10,
+          "interval_end": 11
+        },
+        {
+          "validator_id": 11,
+          "public_key_hex": "88c9340835a3163a966ba3bbdb1d736cf9134f143363f2c51b69ed1c65a29f18",
+          "stake": 1,
+          "interval_start": 11,
+          "interval_end": 12
+        },
+        {
+          "validator_id": 12,
+          "public_key_hex": "6fbb7b5da405f056e60c56afe4d4681963b4e1c7b23a05d4a5768a056aacf8c7",
+          "stake": 1,
+          "interval_start": 12,
+          "interval_end": 13
+        },
+        {
+          "validator_id": 13,
+          "public_key_hex": "eb292004bbbb5c0cb2e3fd1c1af37eb56def52c291a6c22e68ed84ae99a1ae18",
+          "stake": 1,
+          "interval_start": 13,
+          "interval_end": 14
+        },
+        {
+          "validator_id": 14,
+          "public_key_hex": "17397a5a345218bdb2c180acc5b043554db1271dfed35ed2b93e9b3204547737",
+          "stake": 1,
+          "interval_start": 14,
+          "interval_end": 15
+        },
+        {
+          "validator_id": 15,
+          "public_key_hex": "71705fff74a3fac5fe4fbc5747d881938fca088190a2068b048980848bd72464",
+          "stake": 1,
+          "interval_start": 15,
+          "interval_end": 16
+        },
+        {
+          "validator_id": 16,
+          "public_key_hex": "1a8ae64623fc0c8d932f1d34da4d899e78b368cff5d2bb2580623517e0fc0bb7",
+          "stake": 1,
+          "interval_start": 16,
+          "interval_end": 17
+        },
+        {
+          "validator_id": 17,
+          "public_key_hex": "a7f14eba47edb3c5dacd76ed7aaf6550197e9cde9e710117957ca58dcbe30cad",
+          "stake": 1,
+          "interval_start": 17,
+          "interval_end": 18
+        },
+        {
+          "validator_id": 18,
+          "public_key_hex": "f0f1c799a4672e5bfdee36f3af34b21665d73076250ad4852669cb2116baffa9",
+          "stake": 1,
+          "interval_start": 18,
+          "interval_end": 19
+        },
+        {
+          "validator_id": 19,
+          "public_key_hex": "0be3973b165c1a09cf35ef9bff9295366dd4579cc9d593bb49bd59da88efdf6e",
+          "stake": 1,
+          "interval_start": 19,
+          "interval_end": 20
+        },
+        {
+          "validator_id": 20,
+          "public_key_hex": "f7b40632ab8469e6c85943cc3e4175b8816034ebecbc634314c0109dcb0f9f30",
+          "stake": 1,
+          "interval_start": 20,
+          "interval_end": 21
+        },
+        {
+          "validator_id": 21,
+          "public_key_hex": "c86f55294e8a81533fbd5a9e344c5d303fcc944e226723de33a35e1b2cf2ebe4",
+          "stake": 1,
+          "interval_start": 21,
+          "interval_end": 22
+        },
+        {
+          "validator_id": 22,
+          "public_key_hex": "d81cff0fa9608b1febef42b8b4078fba537c27d7ba42cb871510e26483d1b932",
+          "stake": 1,
+          "interval_start": 22,
+          "interval_end": 23
+        },
+        {
+          "validator_id": 23,
+          "public_key_hex": "4a6b930ac5ee2ea0f740ed31e6f28c8ad43bf1cee1e343816973c865eb051019",
+          "stake": 1,
+          "interval_start": 23,
+          "interval_end": 24
+        },
+        {
+          "validator_id": 24,
+          "public_key_hex": "f3cb9ed435e2cac7c6710615e2c92f3a80e6535da9a9ecb2d4ce135e912ce498",
+          "stake": 1,
+          "interval_start": 24,
+          "interval_end": 25
+        },
+        {
+          "validator_id": 25,
+          "public_key_hex": "3265fe53a778183b88804f2149caf383483b67c21466c4ec946db9a32ee58bac",
+          "stake": 1,
+          "interval_start": 25,
+          "interval_end": 26
+        },
+        {
+          "validator_id": 26,
+          "public_key_hex": "980fe2fc5a20e0481d89075f2ce36cd473664ff505de1cb68cd40bfe4f837825",
+          "stake": 1,
+          "interval_start": 26,
+          "interval_end": 27
+        },
+        {
+          "validator_id": 27,
+          "public_key_hex": "8ba5960c42796686ac96783b0fc87492ff4d43f958d618eeb5235a50d8ce96f6",
+          "stake": 1,
+          "interval_start": 27,
+          "interval_end": 28
+        },
+        {
+          "validator_id": 28,
+          "public_key_hex": "39f62edc42d7751e640f8ee0aa025c5c82de29fea1fe719f4ade5958bf719db4",
+          "stake": 1,
+          "interval_start": 28,
+          "interval_end": 29
+        },
+        {
+          "validator_id": 29,
+          "public_key_hex": "e85bb4c29a129d46a7355b7b061aed25a34ae215a400f12b90ece9394dbc0880",
+          "stake": 1,
+          "interval_start": 29,
+          "interval_end": 30
+        },
+        {
+          "validator_id": 30,
+          "public_key_hex": "dac8b6f9598c7fecdf1698970dba15ad1664ed860f9f643b99da267457e477d2",
+          "stake": 1,
+          "interval_start": 30,
+          "interval_end": 31
+        },
+        {
+          "validator_id": 31,
+          "public_key_hex": "f3d1d2ae2738f342e85f01f0c6d710a7cda85d5c4239013dca05b2b5ee32ae47",
+          "stake": 1,
+          "interval_start": 31,
+          "interval_end": 32
+        },
+        {
+          "validator_id": 32,
+          "public_key_hex": "4516eb4fbc358f5188b74f0b5e009d170fa54e392dc1de1040f2d6c5d5e01285",
+          "stake": 1,
+          "interval_start": 32,
+          "interval_end": 33
+        },
+        {
+          "validator_id": 33,
+          "public_key_hex": "2cd888362bb3849f56fe077445c4f2dbb630eb75af276d90de4e78f2c66a7651",
+          "stake": 1,
+          "interval_start": 33,
+          "interval_end": 34
+        },
+        {
+          "validator_id": 34,
+          "public_key_hex": "6d5745fe618306fc89ac026260b5a3c1783142f0531240531c59207e1e106a57",
+          "stake": 1,
+          "interval_start": 34,
+          "interval_end": 35
+        },
+        {
+          "validator_id": 35,
+          "public_key_hex": "2fa7c2f6c0ca241efadb151ddac85d718c89b86d64d2444c50097037711a8fec",
+          "stake": 1,
+          "interval_start": 35,
+          "interval_end": 36
+        },
+        {
+          "validator_id": 36,
+          "public_key_hex": "2faedbb93452ebb0aa08832399cf333fa71dc3da3866dba68386001e57275ac1",
+          "stake": 1,
+          "interval_start": 36,
+          "interval_end": 37
+        },
+        {
+          "validator_id": 37,
+          "public_key_hex": "e8b0714dea6d5c54b02823251e74dedce2fc6c0d00b23767cf9e186a7c5558c8",
+          "stake": 1,
+          "interval_start": 37,
+          "interval_end": 38
+        },
+        {
+          "validator_id": 38,
+          "public_key_hex": "8ed656520d36d99b8d29d12bdb4ea156675d6caf75d36a80bfcac0d98ec409fe",
+          "stake": 1,
+          "interval_start": 38,
+          "interval_end": 39
+        },
+        {
+          "validator_id": 39,
+          "public_key_hex": "23b9c4d75ecd1d0114974ab722c17cbc9082b7f17103ee2f08b4945cd1e22d2a",
+          "stake": 1,
+          "interval_start": 39,
+          "interval_end": 40
+        },
+        {
+          "validator_id": 40,
+          "public_key_hex": "22fc5adf223862da5d908fa4413a3726114de7b6437868753f7809e2503777b4",
+          "stake": 1,
+          "interval_start": 40,
+          "interval_end": 41
+        },
+        {
+          "validator_id": 41,
+          "public_key_hex": "d6c665f2ae5d0c00a3fa533cf07b3a635e75ad18ad5b8d9d835664e1f30f4b80",
+          "stake": 1,
+          "interval_start": 41,
+          "interval_end": 42
+        },
+        {
+          "validator_id": 42,
+          "public_key_hex": "d52c848f3beb6633fc8cccf95f036f02de562c19b42aedf15a97cfbcac608e7b",
+          "stake": 1,
+          "interval_start": 42,
+          "interval_end": 43
+        },
+        {
+          "validator_id": 43,
+          "public_key_hex": "e133ed11ee0c2002a90246fbd4d1d2dd547a8a5fdb9a2b6a7e77df3c7146614a",
+          "stake": 1,
+          "interval_start": 43,
+          "interval_end": 44
+        },
+        {
+          "validator_id": 44,
+          "public_key_hex": "28b0b66e1bbb9eaa85bea4b7663e474035217e4330001ae2147c32196a77d04b",
+          "stake": 1,
+          "interval_start": 44,
+          "interval_end": 45
+        },
+        {
+          "validator_id": 45,
+          "public_key_hex": "627fe8e689a5c5e84e1a60138da0365101fe896623e5b4eff76126943c8aba98",
+          "stake": 1,
+          "interval_start": 45,
+          "interval_end": 46
+        },
+        {
+          "validator_id": 46,
+          "public_key_hex": "def9a5df111d1e06d717c754327aa5ce1ad0bf373c344cd0542b7604ce4460c9",
+          "stake": 1,
+          "interval_start": 46,
+          "interval_end": 47
+        },
+        {
+          "validator_id": 47,
+          "public_key_hex": "7ac1e93dc8feaf5f29aaf1bc1fe8611b72e5cd29cb18fb810700dfd2fbab131c",
+          "stake": 1,
+          "interval_start": 47,
+          "interval_end": 48
+        }
+      ]
+    },
+    "batch": 256,
+    "measured_rounds": 30,
+    "warmup_rounds": 3,
+    "fault_every": 0,
+    "timeout_seconds": 20,
+    "round_max_seconds": 300,
+    "barrier_seconds": 600,
+    "frame_timeout_seconds": 30,
+    "send_deadline_seconds": 90
+  },
+  "plan_pin": "d857230f688055e2080374ab6752b84c4d9767bd9b1889caf7b4524333c6fe6d",
+  "output": "/home/ubuntu/fw_v3_throughput_20260906T210739_c66f8bf5/campaign/virginia1"
+}

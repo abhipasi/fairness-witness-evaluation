@@ -1,0 +1,139 @@
+{
+  "version": "D13_SUSTAINED_V1",
+  "frozen_at_utc": "2026-09-07T17:07:33.439752+00:00",
+  "runs": [
+    {
+      "repetition": 1,
+      "profile": "B256",
+      "batch": 256,
+      "withhold_every": 0,
+      "genesis_seed_hex": "d5bf48eb34f3c90d42e73bf3eb1ce8cea8c1a6bf03255b6aa09c24b37c958311"
+    },
+    {
+      "repetition": 1,
+      "profile": "B1024",
+      "batch": 1024,
+      "withhold_every": 0,
+      "genesis_seed_hex": "a4bb3b1dba7e787ae08fb4c21e44dc5b33ac4b4547342667467e2dc5eea5a995"
+    },
+    {
+      "repetition": 1,
+      "profile": "W1024",
+      "batch": 1024,
+      "withhold_every": 10,
+      "genesis_seed_hex": "408d8954a632ac527b6d0f1ba704178c897671c46095a8df71195106749097a6"
+    },
+    {
+      "repetition": 2,
+      "profile": "B256",
+      "batch": 256,
+      "withhold_every": 0,
+      "genesis_seed_hex": "217310d70911a27c36e71e430c118178b2d5e934f71208147166f921cdb6b7e4"
+    },
+    {
+      "repetition": 2,
+      "profile": "B1024",
+      "batch": 1024,
+      "withhold_every": 0,
+      "genesis_seed_hex": "268f5685ce365c8afecf007dec902c3b54cb5dc72fa7d3149c96154893e1c771"
+    },
+    {
+      "repetition": 2,
+      "profile": "W1024",
+      "batch": 1024,
+      "withhold_every": 10,
+      "genesis_seed_hex": "813f51d97e667beff665f5fdbea907a8585d60974cf0af99edd6156eeb29ef32"
+    },
+    {
+      "repetition": 3,
+      "profile": "B256",
+      "batch": 256,
+      "withhold_every": 0,
+      "genesis_seed_hex": "9a13a23256e7e7a212709ba81fb3bc8c6130b9b8371ff2cdbdcda9534548661c"
+    },
+    {
+      "repetition": 3,
+      "profile": "B1024",
+      "batch": 1024,
+      "withhold_every": 0,
+      "genesis_seed_hex": "b28bfa45c88fe04a221f8ebc92f306bd9f547943c95afce35a09f16fda0a8181"
+    },
+    {
+      "repetition": 3,
+      "profile": "W1024",
+      "batch": 1024,
+      "withhold_every": 10,
+      "genesis_seed_hex": "f1825c2f781ecfacf3f6fe74a474c8b1a655c236e6ed01e9aeffa3518ba97686"
+    },
+    {
+      "repetition": 4,
+      "profile": "B256",
+      "batch": 256,
+      "withhold_every": 0,
+      "genesis_seed_hex": "bbc3fd60bf1a0e231a509d24f8fda4e724dd81d197ba1e6992c84e1e89ee6f7b"
+    },
+    {
+      "repetition": 4,
+      "profile": "B1024",
+      "batch": 1024,
+      "withhold_every": 0,
+      "genesis_seed_hex": "c03ed7e1cb9a2aa99d6545555fa6bb2eee8609cdb4d667dc2a2e2fef13f2ee81"
+    },
+    {
+      "repetition": 4,
+      "profile": "W1024",
+      "batch": 1024,
+      "withhold_every": 10,
+      "genesis_seed_hex": "24813a44b31ed9579a679854f25172f31445f1f5f7d95cbf8386a4e992fbcc94"
+    },
+    {
+      "repetition": 5,
+      "profile": "B256",
+      "batch": 256,
+      "withhold_every": 0,
+      "genesis_seed_hex": "d08bc3d5127749930a362e7a6494c6c3589c955eac8ed1b0defb8129a662ef5b"
+    },
+    {
+      "repetition": 5,
+      "profile": "B1024",
+      "batch": 1024,
+      "withhold_every": 0,
+      "genesis_seed_hex": "ea1fb7fa8ea850b62b97a336a893ce8320463e2ee884d3c8ddfb5850a40352e6"
+    },
+    {
+      "repetition": 5,
+      "profile": "W1024",
+      "batch": 1024,
+      "withhold_every": 10,
+      "genesis_seed_hex": "b83852ebea54a7e0b5b41d5b7e1e639eb4be548c6b5ccc7b280d98f4b515e081"
+    }
+  ],
+  "warmup_seconds": 300,
+  "measurement_seconds": 1800,
+  "difficulty_T": 95000,
+  "n": 48,
+  "f": 15,
+  "q": 32,
+  "flatness": {
+    "rolling_window_seconds": 300,
+    "step_seconds": 60,
+    "maximum_relative_deviation": 0.1,
+    "maximum_absolute_fitted_full_series_change": 0.05
+  },
+  "unsaturated": {
+    "max_process_rss_fraction_total_memory": 0.7,
+    "min_available_memory_fraction": 0.2,
+    "max_queue_capacity_fraction": 0.8,
+    "max_future_buffer_fraction": 0.8,
+    "min_disk_free_fraction": 0.2,
+    "min_disk_free_bytes": 5368709120,
+    "telemetry_period_seconds": 1,
+    "max_telemetry_gap_seconds": 3,
+    "minimum_telemetry_coverage": 0.99,
+    "allowed_queue_overflow_or_future_drop_events": 0
+  },
+  "max_rounds_guard": 5000,
+  "withholding_rule": "For W1024, suppress outgoing initial-view PROPOSAL messages in global rounds r=9,19,29,... including warm-up. Apply by global round index at every host; no eligibility or outcome adaptation. Preserve local core propose behavior.",
+  "acceptance": "Each of all five runs per profile must complete the frozen measurement window, pass artifact audit, full-series flatness and unsaturated criteria on every host. Otherwise profile is not demonstrated stable. No replacement or extension.",
+  "scope": "Sustained closed-loop synthetic payload finalization, not offered-load maximum capacity."
+}
